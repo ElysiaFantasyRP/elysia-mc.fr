@@ -13,3 +13,36 @@
  *= require_tree .
  *= require_self
  */
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.emc-container {
+    width: 100%;
+    min-height: 100vh;
+    max-height: max-content;
+    /* background-color: #575757; */
+    color: #568EA3;
+    background: radial-gradient( rgba(255, 255, 255, 0),#353535 80%), url("https://nsa40.casimages.com/img/2021/01/01//210101101239906937.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #353535;
+}
+.navbar {
+    background-color: #353535;
+}
+.nav-item {
+    margin-right: 1rem;
+}
+.nav-item:hover {
+    background-color: #568EA3;
+}
+.nav-text {
+    color: #f5bc6d ;
+}
+.navbar-brand > h1 {
+    color: #ea9010
+}
