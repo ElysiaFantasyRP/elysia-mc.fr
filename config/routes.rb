@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
-
-  get 'accueil/index'
+  
   root 'accueil#index'
+  get 'accueil/index'
+  get 'profil/index'
+  post '/profil/search', to: 'profil#load'
+  get '/profil/reset', to: 'profil#reset'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

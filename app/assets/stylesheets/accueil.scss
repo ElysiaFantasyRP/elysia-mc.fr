@@ -11,18 +11,63 @@
 // #ea9010 //orange
 
 // #c6d8d3 //gris-bleu
-.article {
-    margin: 5vw;
-}
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 .infos {
     margin: 5vw;
+    font-family: 'Redressed', cursive;
 }
 .item {
     margin-top: -2vw;
     margin: 2vw;
     // background: url('https://hypixel.net/styles/hypixel-v2/images/content-middle-bg.png') repeat-y center center;
     width: 100%;
+    text-align: justify;
 }
 hr {
     background-color: #c6d8d3;
+}
+.discover {
+    font-family: 'Redressed', cursive;
+    h1{
+        font-size: 10vh;
+        text-shadow: #c6d8d3 1px 1px;
+    }
+    h2 {
+        text-shadow: #c6d8d3 1px 1px;
+    }
+}
+.informations {
+    h1{
+        font-size: 10vh;
+        text-shadow: #c6d8d3 1px 1px;
+    }
+    h2 {
+        font-size: 5vh;
+        color: #ea9010;
+        display: inline;
+    }
+    .status {
+        color: aquamarine;
+    }
+}
+.articles {
+    margin: 5vw;
+    h1 {
+        color:#ea9010;
+        font-size: 10vh;
+        font-family: 'Redressed', cursive;
+        text-shadow: #c6d8d3 1px 1px;
+    }
+    h4 {
+        color:#c6d8d3;
+        font-size: 4vh;
+        font-family: 'Redressed', cursive;
+        text-shadow: #a1a1a1 1px 1px;
+    }    
+    p {
+        padding-left: 1vw;
+        font-family: 'Play', sans-serif;
+        color: #f6efee
+    }
 }
