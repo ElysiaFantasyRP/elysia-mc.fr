@@ -13,19 +13,19 @@
         <div class="col item">
             <center><div class="informations">
                 <h2 style="color: RGB(0,0,0,0)">malek</h2>
-                <h1>Status</h1>
+                <h1>Statut</h1>
                 <h2>Le serveur est: </h2><h2 class="status">en ligne</h2>
+                <hr>
             </div></center>
         </div>
     </div>
-    <hr>
 </div>
 <div class="articles">
     <div class="row">
-        <%@articles.last(2).each do |a|%>
+        <%@articles.last(2).reverse.each do |a|%>
 
         <div class="col item">
-            <center><h1><%=a.titre%></h1></center>
+            <center><h1>📰 - <%=a.titre%></h1></center>
             <h4>Topic: <%=a.tag%></h4>
             <p><%=a.corps%></p>
         </div>

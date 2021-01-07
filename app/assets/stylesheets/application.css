@@ -16,7 +16,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 html {
-    background-color: #353535;
+    background-color: #22333b;
 }
 body{
     padding: 0;
@@ -27,12 +27,17 @@ body{
     min-height: 100vh;
     max-height: max-content;
     /* background-color: #575757; */
-    color: #568EA3;
-    background: radial-gradient( rgba(255, 255, 255, 0),#353535 75%), url("https://nsa40.casimages.com/img/2021/01/01//210101101239906937.png") no-repeat center center fixed;
-    background-color: #353535;
+    /* color: #568EA3; */
+    /* background: radial-gradient( rgba(255, 255, 255, 0),#606060 180%), url("https://nsa40.casimages.com/img/2021/01/01//210101101239906937.png") no-repeat center center fixed; */
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+        ), url("https://nsa40.casimages.com/img/2021/01/01//210101101239906937.png") no-repeat center center fixed;  
+        background-color: #22333b;
 }
 .navbar {
-    background-color: #353535;
+    /* height: 20vh; */
+    background-color: #22333b;
 }
 .nav-item {
     margin-right: 1rem;
@@ -41,15 +46,18 @@ body{
     font-size: large;
 } */
 .nav-text {
-    color: #f5bc6d ;
-    text-shadow: #568ea3 0.5px 0.5px;
+    color:  #c6ac8f  ;
+    /* text-shadow: #568ea3 0.5px 0.5px; */
 }
 .navbar-brand > h2 {
-    color: #ea9010;
-    text-shadow: #568ea3 1px 1px;
+    color: #c6ac8f;
+    /* text-shadow: #568ea3 1px 1px; */
 }
 h3 {
     padding-top: 0.5rem;
     font-size: 1.2rem !important;
     font-family: 'Playfair Display', serif;
+}
+ul li a h3:hover {
+    color: #855E42;
 }

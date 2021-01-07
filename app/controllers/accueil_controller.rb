@@ -1,7 +1,7 @@
 class AccueilController < ApplicationController
 
   def index
-    @articles = Article.all.order(id: :desc)
+    @articles = Article.all
     # puts @articles.inspect
   end
 end

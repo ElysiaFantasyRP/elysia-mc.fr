@@ -1,7 +1,20 @@
 // Place all the styles related to the profil controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 .profil {
+    height: 93.2vh;    
     padding: 15vh;
+    h1 {
+        padding-bottom: 5vh;
+        color: wheat;
+        font-family: 'Play', sans-serif;
+    }
+    label {
+        color: antiquewhite;
+    }
+    input {
+        border-radius: 10px 10px 10px 10px;
+    }
 }
