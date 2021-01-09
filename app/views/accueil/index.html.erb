@@ -1,25 +1,34 @@
 <div class="infos">    
     <div class="row">
-        <div class="col col-md-7 item" style="background-color: red">
-            <h1>Elysia FantasyRP</h1>
-            <h2>Serveur RP fanstasy en WhiteList !</h2>
-        </div>
-        <div class="col item" style="background-color: purple">
-            <h1>Infos</h1>
-            <h2>Les infos liées au serveur</h2>
+        <div class="col item">
+            <center><div class="discover">
+                <hr>
+                <h2>Découvrez</h2>
+                <h1>Elysia FantasyRP</h1>
+                <h2>Serveur FantasyRP en WhiteList !</h2>
+            </div></center>
         </div>
     </div>
-    <hr>
-</div>
-<div class="article">
     <div class="row">
-        <%@articles.last(3).each do |a|%>
+        <div class="col item">
+            <center><div class="informations">
+                <h2 style="color: RGB(0,0,0,0)">malek</h2>
+                <h1>Statut</h1>
+                <h2>Le serveur est: </h2><h2 class="status">en ligne</h2>
+                <hr>
+            </div></center>
+        </div>
+    </div>
+</div>
+<div class="articles">
+    <div class="row">
+        <%@articles.last(2).reverse.each do |a|%>
 
         <div class="col item">
-            <h1><%=a.titre%></h1>
-            <h2><%=a.corps%></h2>
+            <center><h1>📰 - <%=a.titre%></h1></center>
+            <h4>Topic: <%=a.tag%></h4>
+            <p><%=a.corps%></p>
         </div>
-
         <%end%>
     </div>
 </div>

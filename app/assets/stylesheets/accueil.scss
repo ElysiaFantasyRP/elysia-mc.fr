@@ -1,28 +1,98 @@
 // Place all the styles related to the Accueil controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+$primary_black: #0a0908;
 
-// #353535 //noir
+$primary_blue: #22333b;
+$primary_blue2: #754465;
 
-// #f6efee //blanc
+$primary_beige: #eae0d5;
+$primary_beige2: #f0d2b3;
+
+$primary_sand: #a0784b;
+$primary_sand2: #c6ac8f;
+
+$primary_brown: #5e503f;
+
+$primary_wood: #855E42;
+$primary_wood2: #9D7E68;
+
+
+
+// $black //noir
 
 // #568ea3 //blue
 
 // #ea9010 //orange
 
 // #c6d8d3 //gris-bleu
-.article {
-    margin: 5vw;
-}
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 .infos {
-    margin: 5vw;
+    font-family: 'Redressed', cursive;
+    margin-top: 10vh;
+    margin: 2vh;
 }
 .item {
-    margin-top: -2vw;
-    margin: 2vw;
+    margin-top: 10vw;
+    margin: 1vw;
     // background: url('https://hypixel.net/styles/hypixel-v2/images/content-middle-bg.png') repeat-y center center;
     width: 100%;
+    text-align: justify;
 }
 hr {
-    background-color: #c6d8d3;
+    background-color: $primary_beige;
+}
+.discover {
+    margin-right: 2vh;
+    margin-top: 18vh;
+    font-family: 'Redressed', cursive;
+    h1{
+        color: $primary_sand;
+        // color: $primary_wood;
+        font-size: 10vh;
+        // text-shadow: $primary_sand 2px 2px;
+    }
+    h2 {
+        font-size: 5vh;
+        // color: $primary_blue2;
+        color: $primary_beige2;
+        // text-shadow: $primary_wood 2px 0 6px;
+    }
+}
+.informations {
+    padding-bottom: 12vh;
+    h1{
+        color: $primary_beige2;
+        font-size: 10vh;
+        // text-shadow: $primary_beige 2px 2px;
+    }
+    h2 {
+        font-size: 5vh;
+        color: $primary_beige;
+        display: inline;
+    }
+    .status {
+        color: aquamarine;
+    }
+}
+.articles {
+    margin: 5vw;
+    h1 {
+        color:$primary_sand;
+        font-size: 7vh;
+        font-family: 'Redressed', cursive;
+        // text-shadow: $primary_sand 1px 1px;
+    }
+    h4 {
+        color:$primary_wood;
+        font-size: 4vh;
+        font-family: 'Redressed', cursive;
+        // text-shadow: #a1a1a1 1px 1px;
+    }    
+    p {
+        padding-left: 1vw;
+        font-family: 'Play', sans-serif;
+        color: $primary_beige;
+    }
 }
