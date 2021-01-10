@@ -18,21 +18,11 @@ $primary_wood2: #9D7E68;
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
 .boutique {
-    padding-top: 10vh;
-    .navbar{
-        background-color:$primary_sand2;
-        li{
-            border-right: solid 1px $primary_blue;
-            margin-top: 0.5rem;
-            .nav-link{
-                color: $primary_blue;
-                font-size: 1.2rem !important;
-                font-family: 'Playfair Display', serif;
-                
-            }
-            .nav-link:hover{
-                color: $primary_blue2;
-            }
+    margin: 15vh;
+    .categories{
+        a {
+            display: list-item;
+            color: $primary_sand2 !important;
         }
     }
 }
