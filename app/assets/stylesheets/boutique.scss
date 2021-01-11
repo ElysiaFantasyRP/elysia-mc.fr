@@ -1,0 +1,28 @@
+$primary_black: #0a0908;
+
+$primary_blue: #22333b;
+$primary_blue2: #754465;
+
+$primary_beige: #eae0d5;
+$primary_beige2: #f0d2b3;
+
+$primary_sand: #a0784b;
+$primary_sand2: #c6ac8f;
+
+$primary_brown: #5e503f;
+
+$primary_wood: #855E42;
+$primary_wood2: #9D7E68;
+
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+.boutique {
+    margin: 15vh;
+    .categories{
+        a {
+            display: list-item;
+            color: $primary_sand2 !important;
+        }
+    }
+}
