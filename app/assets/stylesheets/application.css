@@ -61,3 +61,7 @@ h3 {
 ul li a h3:hover {
     color: #855E42;
 }
+.footer {
+    position:absolute;
+    bottom:0;
+}
