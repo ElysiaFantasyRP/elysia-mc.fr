@@ -18,11 +18,39 @@ $primary_wood2: #9D7E68;
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
 .boutique {
-    padding: 15vh;
+    margin: 5vh;
+    min-height: 82.4vh;
     .categories{
+        padding-top: 75px;
         a {
-            display: list-item;
+            font-size: 3vh;
+            margin: 5px;
+            display: inline list-item;
             color: $primary_sand2 !important;
+        }
+    }
+    .items{
+        margin-left: 20vh;
+    }
+    @media screen and (max-width: 500px) {
+        .items {
+          margin-left: 0;
+        }
+      }
+    .item{
+        margin: 10px;
+        background-color:$primary_blue;
+        box-shadow: 10px 5px 5px $primary_black;
+        h5{
+            color: $primary_sand;
+        }
+        p {
+            color: $primary_sand2;
+        }
+        .btn{
+            background-color: $primary_beige;
+            color:$primary_sand;
+            border: 0px;
         }
     }
 }
