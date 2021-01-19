@@ -1,5 +1,7 @@
 # README
 
+# I WILL UPDATE THE README SOON, THE PROJECT BECOMES OPEN SOURCE BECAUSE ELYSIATM HAS BEEN STOPPED IN ITS DEVELOPMENT
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 

@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col"></div>
+        <div class="panel">
+            <%= form_with method: :post do |f| %>
+                <%= f.label :login, "Login:" %>
+                <%= f.text_field :role%>
+                <%= f.label :login, "password:" %>
+                <%= f.password_field :password %>
+                <%= f.submit "Login" %>
+            <% end %>
+        </div>
+    <div class="col"></div>
+</div>

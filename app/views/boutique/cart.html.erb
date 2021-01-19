@@ -4,30 +4,27 @@
             <div class="categories">
             <hr>
                 <center>
-                <%@categories.each do |c|%>
-                    <%= link_to c.nom, boutique_show_path(:categorie_id => c.id), :method => :post%>
-                <%end%>
-                    <a href="/boutique/cart">🛍 (<%=session[:cart_length]%>)</a>
+                    <a href="/boutique/cart">Valider le panier</a>
                 </center>
             <hr>
             </div>
         </div>
     </div>
-    <% if !flash[:item_ids].nil? %>
+    <% if !session[:items_id].nil? %>
         <center>
         <div class="items row">
-                <%flash[:item_ids].each do |i|%>
+                <%session[:items_id].each do |i|%>
                         <% item=Item.find(i) %>
                         <div class="card item" style="width: 18rem;">
                             <img class="card-img-top" src="https://i.ytimg.com/vi/eoSJ7L9LxfY/maxresdefault.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title"><%=item.nom%></h5>
-                                <p class="card-text"><%=item.desc%></p>
-                                <%= link_to "🛍", boutique_add_cart_path(:item_id => item.id), :method => :post, class: "btn btn-primary"%>
+                                <p class="card-text"><%=item.desc%></p>                            
                             </div>
                         </div>
                 <%end%>
         </div>
         </center>
+
     <%end%>
 </div>

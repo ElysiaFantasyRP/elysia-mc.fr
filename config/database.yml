@@ -10,8 +10,9 @@ default: &default
   timeout: 5000
   database: elysiamc
   host: 127.0.0.1
+  #don't panic it's not true :P
   username: root
-  password: root
+  password: root 
   encoding: utf8
 
 development:
