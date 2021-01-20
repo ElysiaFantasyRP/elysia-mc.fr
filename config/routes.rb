@@ -1,11 +1,12 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
-  
   get 'admin_menu/index'
   root 'accueil#index'
-  
+
   get 'accueil/index'
   get 'accueil', to: 'accueil#index'
-  
+
   get 'profil/index'
   get 'profil', to: 'boutique#index'
 
